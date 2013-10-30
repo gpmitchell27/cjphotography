@@ -52,6 +52,8 @@ a, a:link a:visited {
 	color:#838383;
 	color:#555;
 	font-family: Arial;
+	font-size: 14px;
+
 	text-decoration: none;
 }
 
@@ -61,7 +63,9 @@ a, a:link a:visited {
 /* ////// CONTENT ///////////////// */
 
 section {
-	padding:20px 50px;
+	padding:10px 50px;
+	position: relative;
+	top:-20px;
 }
 
 #carousel div {
