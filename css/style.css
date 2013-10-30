@@ -73,8 +73,47 @@ section {
 	background:#555;
 }
 
+#form div {
+	width:100%;
+}
+
+#form div:first-child {
+	width:60%;
+	float:left;
+}
+
+#form p {
+	clear:right;
+	text-align: left;
+}
+
+#sidepics > p {
+	width:33%;
+	height:200px;
+	background:#555;
+	float:right;
+	margin:10px 0;
+}
+
+body#contact h1 {
+	font-size:36pt;
+}
+
+body#contact h2 {
+	font-size:24pt;
+	padding:10px 0;
+}
+
+#contactform {
+	float:left;
+	width:100%;
+	background:#ddd;
+	padding:20px;
+}
+
 #subfooter {
 	background:#ddd;
+	clear:both;
 }
 
 #subfooter div {
@@ -116,4 +155,14 @@ footer > p {
 
 h4 {
 	padding:10px 0 10px 0;
+}
+
+.centerbtn {
+	margin-left: 90px;
+}
+
+.btnsize {
+	width:200px;
+	height:50px;
+	font-size:24pt;
 }
