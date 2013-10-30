@@ -6,6 +6,7 @@ body {
 
 header, section, footer {
 	width:1060px;
+	padding:0 50px;
 	margin:0 auto;
 	position:relative;
 }
@@ -34,7 +35,7 @@ footer {
 }
 
 footer > p {
-	position:absolute left 0;
+	position:absolute; left: 0;
 	background:#888;
 	width:100%;
 	padding:0 50px;
