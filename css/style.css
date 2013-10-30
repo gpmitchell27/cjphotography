@@ -1,13 +1,14 @@
 body {
-	background:url(../images/bg.jpg) repeat;
+	background:url(../images/bg.jpg);
 	font-family: arial;
+	line-height: 1.3em;
 }
 
 /* ////// STRUCTURE ///////////////// */
 
 header, section, footer {
 	width:1060px;
-	padding:0 50px;
+	padding:0;
 	margin:0 auto;
 	position:relative;
 	clear:both;
@@ -22,7 +23,7 @@ header:after, section:after, footer:after {
 /* ////// HEADER ///////////////// */
 
 header {
-	padding:20px 50px;
+	padding:20px 0px;
 }
 
 header > p:first-child {
@@ -63,13 +64,13 @@ a, a:link a:visited {
 /* ////// CONTENT ///////////////// */
 
 section {
-	padding:10px 50px;
+	padding:10px 0px;
 	position: relative;
 	top:-20px;
 }
 
 #carousel div {
-	padding:10px 50px;
+	padding:10px 0px;
 
 }
 
@@ -81,6 +82,7 @@ section {
 
 #form div {
 	width:100%;
+	padding:20px 0;
 }
 
 #form div:first-child {
@@ -96,9 +98,12 @@ section {
 #sidepics > p {
 	width:33%;
 	height:200px;
-	background:#555;
 	float:right;
 	margin:10px 0;
+}
+
+body#contact p {
+	color:#575757;
 }
 
 body#contact h1 {
@@ -113,15 +118,25 @@ body#contact h2 {
 #contactform {
 	float:left;
 	width:100%;
-	background:#ddd;
-	padding:20px;
+	padding:0px;
+}
+
+#contactform p {
+	padding:5px 0;
 }
 
 #subfooter {
 	clear:both;
 	margin-top:130px;
 	margin-left:190px;
-	width:83%;
+	width:76%;
+}
+
+body#contact #subfooter {
+	margin-top:0px;
+	margin-left:190px;
+	width:76%;
+	clear:both;
 }
 
 #subfooter div {
@@ -133,6 +148,11 @@ body#contact h2 {
 
 #subfooter div:nth-child(3n) {
 	margin-right:0px;
+}
+
+body#contact #subfooter div:nth-child(3n) {
+	margin-right:0px;
+	padding-left:80px;
 }
 
 #subfooter div > p:first-child {
@@ -157,30 +177,25 @@ footer {
 	width:100%;
 }
 
-footer div p {
+footer p:first-child {
+	position:absolute; left: 190px;
 	width:33%;
+	padding:20px 0px;
+}
+
+footer div:nth-child(3) {
+	position: absolute; left: 650px;
+}
+
+footer div {
 	float:left;
-	margin-right:3.5%;
-	background:#555;
-}
-
-footer p {
-	position:absolute; left: 0;
-	width:33%;
-	padding:20px 50px;
-}
-
-footer p:nth-child(3n) {
-	float:right;
-	width:33%;
-	padding:20px 50px;
-	color:#ff0000;
+	margin:0 170px;
 }
 
 footer ul {
 	list-style-type: none;
 	width:65%;
-	margin-left:400px;
+	margin-left:410px;
 }
 
 footer li {
@@ -198,13 +213,68 @@ h4 {
 	margin-left: 90px;
 }
 
-.btnsize {
-	width:200px;
-	height:50px;
-	font-size:24pt;
+.btn {
+	background:url("../images/submitsprite.png");
+	border:none;
+	width:328px;
+	height:90px;
+}
+
+.btn:hover {
+	background-position:0px 90px;
+	cursor: pointer;
 }
 
 .divider {
 	color:#333;
 	margin:0 0 0 10px;
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+	font-size: 52px;
+}
+
+.offwhite {
+	color:#fefefe;
+}
+
+.grey {
+	color:#575757;
+	margin:10px 0;
+}
+
+.narrow {
+color: #575757;
+font-family: ‘Arial Narrow’, sans-serif;
+} 
+
+.form_textarea {
+	background: url("../images/text_area.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #707070;
+    font-size: 18px;
+    font-weight: bold;
+    height: 164px;
+    margin: 0;
+    padding: 12px;
+    width: 515px;
+}
+
+.form_textfield {
+	background: url("../images/textfield.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #707070;
+    font-size: 18px;
+    font-weight: bold;
+    height: 46px;
+    margin: 0;
+    padding: 0px 12px;
+    width: 246px;
+}
+
+.resizable-textarea textarea {
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
 }
