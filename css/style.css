@@ -192,3 +192,8 @@ h4 {
 	height:50px;
 	font-size:24pt;
 }
+
+.divider {
+	color:#333;
+	margin:0 0 0 10px;
+}
