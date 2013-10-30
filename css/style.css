@@ -2,19 +2,39 @@ body {
 	background:#555;
 }
 
+/* ////// STRUCTURE ///////////////// */
+
 header, section, footer {
 	width:1060px;
 	margin:0 auto;
+	position:relative;
 }
+
+/* ////// HEADER ///////////////// */
 
 header {
 	background:#ddd;
 }
 
+/* ////// CONTENT ///////////////// */
+
 section {
-	background:#ddd;
+	background:#cdcdcd;
 }
 
+section h2 {
+	background:#fff;
+	height:300px;
+}
+
+/* ////// FOOTER ///////////////// */
+
 footer {
+	background:#cdcdcd;
+}
+
+footer > p {
 	background:#888;
+	width:100%;
+	padding:0 50px;
 }
