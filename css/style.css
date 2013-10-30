@@ -157,16 +157,24 @@ footer {
 	width:100%;
 }
 
-footer div {
-	width:38%;
+footer div p {
+	width:33%;
 	float:left;
 	margin-right:3.5%;
+	background:#555;
 }
 
 footer p {
 	position:absolute; left: 0;
-	width:100%;
+	width:33%;
 	padding:20px 50px;
+}
+
+footer p:nth-child(3n) {
+	float:right;
+	width:33%;
+	padding:20px 50px;
+	color:#ff0000;
 }
 
 footer ul {
