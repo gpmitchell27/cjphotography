@@ -61,6 +61,8 @@ a, a:link a:visited {
 .active {
 	color:#f88379;
 }
+
+
 /* ////// CONTENT ///////////////// */
 
 section {
@@ -69,74 +71,11 @@ section {
 	top:-20px;
 }
 
-#carousel div {
-	padding:10px 0px;
-
-}
-
-#carousel p {
-	width:100%;
-	height:650px;
-	background:#555;
-}
-
-#form div {
-	width:100%;
-	padding:20px 0;
-}
-
-#form div:first-child {
-	width:60%;
-	float:left;
-}
-
-#form p {
-	clear:right;
-	text-align: left;
-}
-
-#sidepics > p {
-	width:33%;
-	height:200px;
-	float:right;
-	margin:10px 0;
-}
-
-body#contact p {
-	color:#575757;
-}
-
-body#contact h1 {
-	font-size:36px;
-}
-
-body#contact h2 {
-	font-size:24px;
-	padding:10px 0;
-}
-
-#contactform {
-	float:left;
-	width:100%;
-	padding:0px;
-}
-
-#contactform p {
-	padding:5px 0;
-}
-
 #subfooter {
 	clear:both;
 	margin-top:130px;
 	margin-left:190px;
 	width:76%;
-}
-
-body#contact #subfooter {
-	margin-top:0px;
-	margin-left:190px;
-	width:76%;
-	clear:both;
 }
 
 #subfooter div {
@@ -148,11 +87,6 @@ body#contact #subfooter {
 
 #subfooter div:nth-child(3n) {
 	margin-right:0px;
-}
-
-body#contact #subfooter div:nth-child(3n) {
-	margin-right:0px;
-	padding-left:80px;
 }
 
 #subfooter div > p:first-child {
@@ -208,6 +142,109 @@ h4 {
 	color:#40e0d0;
 	padding-top:60px;
 }
+
+/* ////// HOMEPAGE ONLY ///////////////// */
+
+#carousel div {
+	padding:10px 0px;
+
+}
+
+#carousel p {
+	width:100%;
+	height:650px;
+	background:#555;
+}
+
+
+/* ////// CONTACT PAGE ONLY ///////////////// */
+
+
+#form div {
+	width:100%;
+	padding:20px 0;
+}
+
+#form div:first-child {
+	width:60%;
+	float:left;
+}
+
+#form p {
+	clear:right;
+	text-align: left;
+}
+
+#sidepics > p {
+	width:33%;
+	height:200px;
+	float:right;
+	margin:10px 0;
+}
+
+body#contact p {
+	color:#575757;
+}
+
+body#contact h1 {
+	font-size:36px;
+}
+
+body#contact h2 {
+	font-size:24px;
+	padding:10px 0;
+}
+
+#contactform {
+	float:left;
+	width:100%;
+	padding:0px;
+}
+
+#contactform p {
+	padding:5px 0;
+}
+
+body#contact #subfooter {
+	clear:both;
+	margin-top:-290px;
+	margin-left:190px;
+	padding:0px 0 40px 0;
+	width:76%;
+}
+
+body#contact #subfooter div:nth-child(3n) {
+	margin-right:0px;
+	padding-left:80px;
+}
+
+/* ////// ABOUT PAGE ONLY ///////////////// */
+
+#bio div {
+	width:100%;
+	padding:20px 0;
+}
+
+#bio div:first-child {
+	width:30%;
+	float:left;
+}
+
+#bio p {
+	clear:right;
+	text-align: left;
+	padding:20px 0;
+}
+
+#sidepic > p {
+	width:57%;
+	float:right;
+	margin:-20px;
+}
+
+
+/* ////// REUSUABLE CLASSES ///////////////// */
+
 
 .btn {
 	background:url("../images/submitsprite.png");
@@ -273,4 +310,22 @@ font-family: ‘Arial Narrow’, sans-serif;
     display: block;
     margin-bottom: 0;
     width: 100%;
+    resize:both;
+	overflow:auto;
 }
+
+div.transbox
+  {
+  width:1060px;
+  height:260px;
+  margin:30px 50px;
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.02;
+  position:relative;
+  top:0px;
+  left:120px;
+  z-index: 2;
+  filter:alpha(opacity=10); /* For IE8 and earlier */
+  }
+
