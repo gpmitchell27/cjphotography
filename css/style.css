@@ -24,7 +24,8 @@ header:after, section:after, footer:after {
 /* ////// HEADER ///////////////// */
 
 header {
-	padding:20px 0px;
+	padding:15px 0px;
+	border-bottom:1px solid #282828;
 }
 
 header > p:first-child {
@@ -272,7 +273,9 @@ body#portfolio #subfooter div:nth-child(3n) {
 }
 
 div.img {
-	margin:5px;
+	margin-top:35px;
+	margin-left:5px;
+	margin-right:5px;
 	padding: 5px;
 	float:left;
 	text-align:center;
@@ -306,13 +309,17 @@ body#portfolio #gallery h4 {
 
 .pnav {
 	position: relative;
-	top:-30px;
+	top:10px;
+	background:url(../images/pagbg.png) no-repeat;
+	padding-top:10px;
+	float:left;
+	width:100%;
 }
 
 .pnav ul {
 	height:30px;
-	width:50%;
-	z-index: 8;
+	width:46%;
+	float:left;
 }
 
 .pnav li {
@@ -321,25 +328,22 @@ body#portfolio #gallery h4 {
 	cursor: pointer;
 }
 
-.pag_nav {
-	float:right;
+.pagnav {
+	float:left;
 	position: relative;
-	top:-30px;
-	left:220px;
+	top:-20px;
+	left:756px;
+	width:18%;
 }
 
-.stransbox {
-	width:1060px;
-	height:40px;
-	margin:0px;
-	background-color:#ffffff;
-	border:1px solid black;
-	opacity:0.02;
-	position:relative;
-	top:-10px;
-	left:180px;
-	z-index: 5;
-	filter:alpha(opacity=10); /* For IE8 and earlier */
+.pag_nav ul {
+	width:46%;
+	float:right;
+}
+
+.pag_nav li {
+	display:inline;
+	margin-left:23px;
 }
 
 /* ////// REUSUABLE CLASSES ///////////////// */
@@ -365,10 +369,13 @@ body#portfolio #gallery h4 {
 .lobster {
 	font-family: 'Lobster', cursive;
 	font-size: 52px;
+	position:relative;
+	top:25px;
+	left:-180px;
 }
 
 .offwhite {
-	color:#fefefe;
+	color:#fafafa;
 }
 
 .grey {
