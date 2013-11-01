@@ -285,7 +285,7 @@ div.img img {
 }
 
 div.img a:hover img {
-	border:1px solid #0000ff;
+	border:3px solid #555;
 }
 
 div.desc {
