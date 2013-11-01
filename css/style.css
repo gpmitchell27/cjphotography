@@ -371,6 +371,13 @@ body#portfolio #gallery h4 {
 	font-family: 'Lobster', cursive;
 	font-size: 52px;
 	position:relative;
+	top:10px;
+}
+
+body#portfolio 	.lobster {
+	font-family: 'Lobster', cursive;
+	font-size: 52px;
+	position:relative;
 	top:25px;
 	left:-180px;
 }
