@@ -115,7 +115,7 @@ footer {
 
 footer p:first-child {
 	position:absolute; left: 190px;
-	width:33%;
+	width:23%;
 	padding:20px 0px;
 }
 
@@ -130,7 +130,7 @@ footer div {
 
 footer ul {
 	list-style-type: none;
-	width:65%;
+	width:35%;
 	margin-left:410px;
 }
 
