@@ -339,6 +339,7 @@ body#portfolio #gallery h4 {
 .pag_nav ul {
 	width:46%;
 	float:right;
+	display:block;
 }
 
 .pag_nav li {
