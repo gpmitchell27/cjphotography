@@ -12,6 +12,7 @@ class Home extends CI_Controller {
       $data['title'] = 'Home Page | Claire Jones Photography';
   		$this->load->view('main_header.php', $data);
   		$this->load->view('main_content.php');
+      $this->load->view('subfooter_withimages.php');
   		$this->load->view('footer.php');
   	}
 
@@ -33,6 +34,7 @@ class Home extends CI_Controller {
   		
   		$this->load->view('portfolio_header.php', $data);
       $this->load->view('portfolio_content_nature', $data);
+      $this->load->view('subfooter_noimages.php');
     	$this->load->view('footer.php');  		
   	}
 
@@ -54,6 +56,7 @@ class Home extends CI_Controller {
       
       $this->load->view('portfolio_header.php', $data);
       $this->load->view('portfolio_content_wildlife', $data);
+      $this->load->view('subfooter_noimages.php');
       $this->load->view('footer.php');      
     }
 
@@ -75,6 +78,7 @@ class Home extends CI_Controller {
       
       $this->load->view('portfolio_header.php', $data);
       $this->load->view('portfolio_content_wedding', $data);
+      $this->load->view('subfooter_noimages.php');
       $this->load->view('footer.php');      
     }
 
@@ -96,6 +100,7 @@ class Home extends CI_Controller {
       
       $this->load->view('portfolio_header.php', $data);
       $this->load->view('portfolio_content_portrait', $data);
+      $this->load->view('subfooter_noimages.php');
       $this->load->view('footer.php');      
     }
 
@@ -117,6 +122,7 @@ class Home extends CI_Controller {
       
       $this->load->view('portfolio_header.php', $data);
       $this->load->view('portfolio_content_landscape', $data);
+      $this->load->view('subfooter_noimages.php');
       $this->load->view('footer.php');      
     }
 
@@ -124,6 +130,7 @@ class Home extends CI_Controller {
       $data['title'] = 'About Claire | Claire Jones Photography';
   		$this->load->view('about_header.php', $data);
     	$this->load->view('about_content.php');
+      $this->load->view('subfooter_noimages.php');
     	$this->load->view('footer.php');  		
   	}
 
@@ -137,6 +144,7 @@ class Home extends CI_Controller {
       $this->form_validation->set_rules('message', 'Message', 'required');
 		  $this->load->view('contact_header.php', $data);
   		$this->load->view('contact_content.php');
+      $this->load->view('subfooter_noimages.php');
   		$this->load->view('footer.php');  		
   	}
 
